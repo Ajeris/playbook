@@ -5,3 +5,9 @@
   tasks:
    - name: Reboot the machine with all defaults using Ansible
      reboot:
+   - name: send a message to chat in playbook
+     telegram:
+    token: '5267068301:AAGFvmTrUryXTDLFauQLEBeHtRYPEPtdPj4'
+    chat_id: 470035119
+    msg: Ansible task finished
+   
