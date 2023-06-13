@@ -5,5 +5,4 @@
   tasks:
    - name: Reboot the machine with all defaults using Ansible
      reboot:
-   - name: send a message to chat in playbook
   
